@@ -26,19 +26,19 @@
 
 
 
-# 실행 방법
+## 실행 방법
 
 ### 이동
 ```zsh
 cd url_shortener
 ```
 
-### docker 빌드
+### docker 이미지 빌드
 ```zsh
 docker build -t url-shortener .
 ```
 
-### 실행
+### docker 이미지 실행
 ```zsh
 docker run -p 9999:9999 url-shortener
 ```
