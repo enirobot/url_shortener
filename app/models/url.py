@@ -1,8 +1,7 @@
 from datetime import datetime, timedelta, UTC
 from sqlalchemy import Column, Integer, String, DateTime, Boolean
-from sqlalchemy.ext.declarative import declarative_base
+from app.core.db import Base
 
-Base = declarative_base()
 
 class URL(Base):
     __tablename__ = 'urls'
